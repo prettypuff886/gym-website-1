@@ -1,0 +1,374 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  text-align: center;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+/*<----- center --->*/
+.section-1 * {
+  margin: auto;
+  width: 280px;
+}
+
+.section-4 * {
+  margin: auto;
+  width: 200px;
+  padding: .6rem 0;
+}
+
+.section-6 * {
+  margin: auto;
+  width: 280px;
+  padding: .2rem 0;
+}
+
+.m-1 {
+  padding: 3vh 0;
+}
+
+.section-8 * {
+  margin: auto;
+  width: 280px;
+  padding: .2rem 0;
+}
+
+.section-9 * {
+  margin: auto;
+  width: 280px;
+  padding: .2rem 0;
+}
+
+footer {
+  margin: auto;
+  width: 280px;
+  padding: .6rem 0;
+}
+
+.top-bottom {
+  padding: 2.2rem 0;
+}
+
+/*<----- variables --->*/
+.p-2 {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.p-3 {
+  font-size: .88rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+}
+
+/*<----- section 1 --->*/
+.section-1 {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: .6rem 0;
+  font-size: .8rem;
+}
+
+.section-1 i {
+  color: #fff;
+}
+
+.section-1 i:hover {
+  color: #c4306b;
+}
+
+.section-1 .section-1 * {
+  margin: auto;
+  width: 280px;
+}
+
+/*<----- section 2 --->*/
+.section-2 {
+  background-color: #c4306b;
+  color: #fff;
+  padding: .6rem 0;
+  font-size: .8rem;
+}
+
+/*<----- section 3 --->*/
+.section-3 {
+  padding: .6rem 0;
+}
+
+.section-3 nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section-3 .nav-img svg {
+  height: 20px;
+  width: 20px;
+}
+
+.section-3 .nav-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-3 .nav-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  padding-left: 1rem;
+}
+
+.section-3 .nav-right {
+  height: 40px;
+  width: 40px;
+}
+
+.section-3 .nav-logo {
+  font-size: 1.5rem;
+  font-weight: 200;
+  padding-left: .5rem;
+}
+
+.section-3 .nav-logo h3 {
+  font-weight: 600;
+}
+
+/*<----- section 4 --->*/
+.section-4 {
+  background-image: url("https://static.wixstatic.com/media/ea26fd_1e0a7687397a4dd5951fbb11328f376f~mv2.jpg/v1/fill/w_400,h_613,al_t,q_80,usm_0.66_1.00_0.01/ea26fd_1e0a7687397a4dd5951fbb11328f376f~mv2.webp");
+  height: 65vh;
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.section-4 .s-4 {
+  padding: 15vh 0;
+}
+
+.section-4 h1 {
+  line-height: 2.3rem;
+}
+
+.section-4 .p-2 {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.section-4 button {
+  border-radius: 3em;
+  padding: 1.1em;
+  width: 9rem;
+  border: none;
+  background-color: #fff;
+  margin: .6rem 0;
+}
+
+/*<----- section 5 --->*/
+.section-5 {
+  background-image: url("https://static.wixstatic.com/media/ea26fd_ee108823ae614a41a3f6a028c90f6c87~mv2.jpg/v1/fill/w_400,h_375,al_c,q_80,usm_0.66_1.00_0.01/ea26fd_ee108823ae614a41a3f6a028c90f6c87~mv2.webp");
+  height: 48vh;
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*<----- section 6 --->*/
+.section-6 {
+  padding: .6rem 0;
+}
+
+.section-6 h2 {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.section-6 .p-3 {
+  font-size: .88rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+}
+
+.section-6 button {
+  border-radius: 3em;
+  padding: 1.1em;
+  width: 9rem;
+  border: 2px #000 solid;
+  background-color: #fff;
+  margin-top: 1rem;
+}
+
+/*<----- section 7 --->*/
+.section-7 {
+  background-image: url("https://static.wixstatic.com/media/ea26fd_e182d19292c744c6a2735309376b6e56~mv2.jpg/v1/fill/w_400,h_375,al_c,q_80,usm_0.66_1.00_0.01/ea26fd_e182d19292c744c6a2735309376b6e56~mv2.webp");
+  height: 48vh;
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*<----- section 8 --->*/
+.section-8 h2 {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.section-8 .p-3 {
+  font-size: .88rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+}
+
+.section-8 button {
+  border-radius: 3em;
+  padding: 1.1em;
+  width: 9rem;
+  border: 2px #000 solid;
+  background-color: #fff;
+  margin-top: 1rem;
+}
+
+/*<----- section 9 --->*/
+.section-9 {
+  background-color: #c4306b;
+  color: #fff;
+}
+
+.section-9 h2 {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.section-9 .p-3 {
+  font-size: .88rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+}
+
+.section-9 button {
+  border-radius: 3em;
+  padding: 1.1em;
+  width: 9rem;
+  border: none;
+  background-color: #fff;
+  margin-top: 1rem;
+}
+
+.section-9 img {
+  padding: 1rem 0;
+}
+
+/*<----- footer --->*/
+footer .footer-1 svg {
+  height: 25px;
+  width: 25px;
+}
+
+footer .footer-1 .nav-logo {
+  font-size: 1.5rem;
+  font-weight: 200;
+  padding-left: .5rem;
+}
+
+footer .footer-1 p {
+  font-size: .88rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+  line-height: 2rem;
+  font-weight: 400;
+}
+
+footer .footer-1 .logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .footer-1 .logos i {
+  padding: 1rem .9rem;
+  font-size: 19px;
+}
+
+footer .footer-1 .foot-1-p {
+  padding: .8rem 0;
+}
+
+footer .footer-2 {
+  padding: .3rem 0;
+}
+
+footer .footer-2 * {
+  padding: .3rem 0;
+}
+
+footer .footer-3 {
+  font-weight: 300;
+  padding: 1rem;
+}
+
+footer .footer-3 input[type=text] {
+  border: none;
+  border-bottom: 1px solid #000;
+  padding: .5rem;
+  margin-bottom: 1rem;
+}
+
+footer .footer-3 #message {
+  padding-top: 4rem;
+}
+
+footer .footer-3 button {
+  color: #fff;
+  border-radius: 3em;
+  padding: 1.1em;
+  width: 9rem;
+  border: none;
+  background-color: #c4306b;
+  width: 17rem;
+}
+
+footer .footer-3 .m-button {
+  width: 90%;
+}
+
+footer .footer-4 {
+  padding: 1.3rem 0;
+}
+
+footer .footer-4 p {
+  padding: .3rem 0;
+}
+
+footer .footer-5 {
+  padding: 1rem 0;
+}
+
+footer .footer-6 {
+  padding: 1.3rem 0;
+  margin: 0 50px;
+}
+/*# sourceMappingURL=style.css.map */
