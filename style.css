@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  text-align: center;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.section-1 * {
+  margin: auto;
+  width: 280px;
+}
+
+.section-4 * {
+  margin: auto;
+  width: 200px;
+  padding: .6rem 0;
+}
+
+.section-1 {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: .6rem 0;
+  font-size: .8rem;
+}
+
+.section-1 i {
+  color: #fff;
+}
+
+.section-1 i:hover {
+  color: #c4306b;
+}
+
+.section-1 .section-1 * {
+  margin: auto;
+  width: 280px;
+}
+
+.section-2 {
+  background-color: #c4306b;
+  color: #fff;
+  padding: .6rem 0;
+  font-size: .8rem;
+}
+
+.section-3 {
+  padding: .6rem 0;
+}
+
+.section-3 nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section-3 .nav-img svg {
+  height: 20px;
+  width: 20px;
+}
+
+.section-3 .nav-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-3 .nav-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  padding-left: 1rem;
+}
+
+.section-3 .nav-right {
+  height: 40px;
+  width: 40px;
+}
+
+.section-3 .nav-logo {
+  font-size: 1.5rem;
+  font-weight: 200;
+  padding-left: .5rem;
+}
+
+.section-3 .nav-logo h3 {
+  font-weight: 600;
+}
+
+.section-4 {
+  background-image: url("https://static.wixstatic.com/media/ea26fd_1e0a7687397a4dd5951fbb11328f376f~mv2.jpg/v1/fill/w_400,h_613,al_t,q_80,usm_0.66_1.00_0.01/ea26fd_1e0a7687397a4dd5951fbb11328f376f~mv2.webp");
+  height: 65vh;
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.section-4 .s-4 {
+  padding: 18vh 0;
+}
+
+.section-4 h1 {
+  line-height: 2.3rem;
+}
+
+.section-4 .p-2 {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.section-4 button {
+  border-radius: 3em;
+  padding: 1.1em;
+  width: 9rem;
+  border: none;
+  background-color: #fff;
+}
+/*# sourceMappingURL=style.css.map */

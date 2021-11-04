@@ -1,0 +1,117 @@
+@import "./medium";
+@import "./var";
+@import "./mixins";
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+body{
+    text-align: center;
+}
+
+h1 {
+    @include h1;
+}
+
+.section-1 *{
+    @include center;
+}
+
+.section-4 *{
+    margin: auto;
+    width: 200px;
+    @include pad-1
+}
+
+.section-1{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    @include pad-1;
+    @include font-1;
+    
+    i {
+        color: #fff;
+        &:hover{
+            color: $pink
+        }
+} .section-1 *{
+    @include center;
+} 
+ 
+}
+
+.section-2{
+    background-color: $pink;
+    color: #fff;
+    @include pad-1;
+    @include font-1;
+}
+
+
+.section-3{
+    @include pad-1;
+    
+
+ nav{
+    display: flex;
+    justify-content: space-between;
+    
+    
+ }
+ .nav-img svg{
+    height: 20px;
+    width: 20px;
+    
+    
+}
+
+.nav-img{
+   display: flex;
+   align-items: center;
+}
+
+.nav-left{
+   display: flex;
+   align-self: center;
+   padding-left: 1rem;
+
+} .nav-right {
+    height: 40px;
+    width: 40px;
+    
+}.nav-logo{
+    font-size: 1.5rem;
+    font-weight: 200;
+    padding-left: .5rem;
+} .nav-logo h3{
+    font-weight: 600;
+}
+}
+
+.section-4 {
+  background-image:url('https://static.wixstatic.com/media/ea26fd_1e0a7687397a4dd5951fbb11328f376f~mv2.jpg/v1/fill/w_400,h_613,al_t,q_80,usm_0.66_1.00_0.01/ea26fd_1e0a7687397a4dd5951fbb11328f376f~mv2.webp');
+  height: 65vh;
+  background-color: #cccccc;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  color: #fff;
+
+.s-4{
+    padding: 18vh 0;
+} h1{
+    line-height: 2.3rem;
+    
+} .p-2{
+    @include font-2;
+} button {
+    @include button($white);
+}
+}
